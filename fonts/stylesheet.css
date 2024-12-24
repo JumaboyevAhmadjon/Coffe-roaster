@@ -1,0 +1,300 @@
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-Bold.woff2') format('woff2'),
+        url('Fraunces9pt-Bold.woff') format('woff'),
+        url('Fraunces9pt-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-Light.woff2') format('woff2'),
+        url('Fraunces9pt-Light.woff') format('woff'),
+        url('Fraunces9pt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-Black.woff2') format('woff2'),
+        url('Fraunces9pt-Black.woff') format('woff'),
+        url('Fraunces9pt-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt Soft';
+    src: url('Fraunces72ptSoft-Regular.woff2') format('woff2'),
+        url('Fraunces72ptSoft-Regular.woff') format('woff'),
+        url('Fraunces72ptSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt Soft';
+    src: url('Fraunces72ptSoft-Black.woff2') format('woff2'),
+        url('Fraunces72ptSoft-Black.woff') format('woff'),
+        url('Fraunces72ptSoft-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt Soft';
+    src: url('Fraunces72ptSoft-Bold.woff2') format('woff2'),
+        url('Fraunces72ptSoft-Bold.woff') format('woff'),
+        url('Fraunces72ptSoft-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-Thin.woff2') format('woff2'),
+        url('Fraunces9pt-Thin.woff') format('woff'),
+        url('Fraunces9pt-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-SemiBold.woff2') format('woff2'),
+        url('Fraunces9pt-SemiBold.woff') format('woff'),
+        url('Fraunces9pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt Soft';
+    src: url('Fraunces72ptSoft-SemiBold.woff2') format('woff2'),
+        url('Fraunces72ptSoft-SemiBold.woff') format('woff'),
+        url('Fraunces72ptSoft-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt Soft';
+    src: url('Fraunces72ptSoft-Light.woff2') format('woff2'),
+        url('Fraunces72ptSoft-Light.woff') format('woff'),
+        url('Fraunces72ptSoft-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('Fraunces9pt-Regular.woff2') format('woff2'),
+        url('Fraunces9pt-Regular.woff') format('woff'),
+        url('Fraunces9pt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt SuperSoft';
+    src: url('Fraunces72ptSuperSoft-SemiBold.woff2') format('woff2'),
+        url('Fraunces72ptSuperSoft-SemiBold.woff') format('woff'),
+        url('Fraunces72ptSuperSoft-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt SuperSoft';
+    src: url('Fraunces72ptSuperSoft-Bold.woff2') format('woff2'),
+        url('Fraunces72ptSuperSoft-Bold.woff') format('woff'),
+        url('Fraunces72ptSuperSoft-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt SuperSoft';
+    src: url('Fraunces72ptSuperSoft-Black.woff2') format('woff2'),
+        url('Fraunces72ptSuperSoft-Black.woff') format('woff'),
+        url('Fraunces72ptSuperSoft-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt SuperSoft';
+    src: url('Fraunces72ptSuperSoft-Thin.woff2') format('woff2'),
+        url('Fraunces72ptSuperSoft-Thin.woff') format('woff'),
+        url('Fraunces72ptSuperSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-Black.woff2') format('woff2'),
+        url('Fraunces9ptSoft-Black.woff') format('woff'),
+        url('Fraunces9ptSoft-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-Light.woff2') format('woff2'),
+        url('Fraunces9ptSoft-Light.woff') format('woff'),
+        url('Fraunces9ptSoft-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt Soft';
+    src: url('Fraunces72ptSoft-Thin.woff2') format('woff2'),
+        url('Fraunces72ptSoft-Thin.woff') format('woff'),
+        url('Fraunces72ptSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt SuperSoft';
+    src: url('Fraunces72ptSuperSoft-Light.woff2') format('woff2'),
+        url('Fraunces72ptSuperSoft-Light.woff') format('woff'),
+        url('Fraunces72ptSuperSoft-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-Bold.woff2') format('woff2'),
+        url('Fraunces9ptSoft-Bold.woff') format('woff'),
+        url('Fraunces9ptSoft-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 72pt SuperSoft';
+    src: url('Fraunces72ptSuperSoft-Regular.woff2') format('woff2'),
+        url('Fraunces72ptSuperSoft-Regular.woff') format('woff'),
+        url('Fraunces72ptSuperSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-SemiBold.woff2') format('woff2'),
+        url('Fraunces9ptSoft-SemiBold.woff') format('woff'),
+        url('Fraunces9ptSoft-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt SuperSoft';
+    src: url('Fraunces9ptSuperSoft-Regular.woff2') format('woff2'),
+        url('Fraunces9ptSuperSoft-Regular.woff') format('woff'),
+        url('Fraunces9ptSuperSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt SuperSoft';
+    src: url('Fraunces9ptSuperSoft-Bold.woff2') format('woff2'),
+        url('Fraunces9ptSuperSoft-Bold.woff') format('woff'),
+        url('Fraunces9ptSuperSoft-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-Thin.woff2') format('woff2'),
+        url('Fraunces9ptSoft-Thin.woff') format('woff'),
+        url('Fraunces9ptSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt SuperSoft';
+    src: url('Fraunces9ptSuperSoft-Black.woff2') format('woff2'),
+        url('Fraunces9ptSuperSoft-Black.woff') format('woff'),
+        url('Fraunces9ptSuperSoft-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt SuperSoft';
+    src: url('Fraunces9ptSuperSoft-SemiBold.woff2') format('woff2'),
+        url('Fraunces9ptSuperSoft-SemiBold.woff') format('woff'),
+        url('Fraunces9ptSuperSoft-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt SuperSoft';
+    src: url('Fraunces9ptSuperSoft-Light.woff2') format('woff2'),
+        url('Fraunces9ptSuperSoft-Light.woff') format('woff'),
+        url('Fraunces9ptSuperSoft-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt Soft';
+    src: url('Fraunces9ptSoft-Regular.woff2') format('woff2'),
+        url('Fraunces9ptSoft-Regular.woff') format('woff'),
+        url('Fraunces9ptSoft-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fraunces 9pt SuperSoft';
+    src: url('Fraunces9ptSuperSoft-Thin.woff2') format('woff2'),
+        url('Fraunces9ptSuperSoft-Thin.woff') format('woff'),
+        url('Fraunces9ptSuperSoft-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

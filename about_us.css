@@ -1,0 +1,230 @@
+*{
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+.site-btn{
+    width: 217px;
+    height: 56px;
+    border-radius: 6px 6px 6px 6px;
+    background: #0E8784;
+    font-family: "Fraunces 9pt";
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;                        
+}
+.site-btn:active{
+    width: 217px;
+    height: 56px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+}
+.site-btn:hover{
+    width: 217px;
+    height: 56px;
+    top: 2534px;
+    left: 612px;
+    gap: 0px;
+    opacity: 0px;
+    background: #66D2CF;    
+}
+.site-btn:disabled{
+    width: 217px;
+    height: 56px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+    background: #E2DEDB;   
+}
+.header{
+    margin: 44px 0 44px 0;
+}
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 283px; */
+    padding: 0px 1px 0px 0px;
+
+
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-item a{
+    font-family: "Barlow";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    text-align: left;
+    color: #83888F;
+}
+.hero-container{
+    background-image: url(/About_us_img/Hero_bg_img.png);
+    background-repeat: no-repeat;
+    padding: 137px 0;
+}
+.hero-box{
+    margin-left: 85px;
+    text-align: left;
+    width: 445px;       
+}
+.hero-title{
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    color: #FEFCF7;
+}
+.hero-text{
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #FEFCF7;
+}
+.commitment-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 168px;
+}
+.commitment-title{
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    color: #333D4B;    
+}
+.commitment-text{
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #333D4B;
+    margin-top: 32px;   
+}
+.quality-container{
+    background-image: url(/About_us_img/quality-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 256px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quality-title{
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    color: #FEFCF7;    
+}
+.quality-text{
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #FEFCF7;
+    margin-top: 32px;    
+}
+.quality-container img{
+    position: relative;
+    bottom: 88px;
+}
+.headquarters-container{
+    margin-top: 168px;
+    margin-bottom: 168px;
+}
+.headquarters-span{
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+    color: #83888F;
+    
+}
+.headquarters-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+.headquarters-item img{
+    margin-bottom: 45.93px;
+}
+.headquarters-item h3{
+    font-family: "Fraunces 9pt";
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+    color: #333D4B;
+    margin-bottom: 24px;   
+}
+.headquarters-item p{
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #333D4B;
+
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 88px;
+    background: #2C343E;
+    padding:47px 85px;
+}
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-apps-list{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-apps-item{
+    padding: 0;
+}
+.footer-apps-item a{
+    padding: 0;
+}

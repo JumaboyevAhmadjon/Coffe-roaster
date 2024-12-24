@@ -1,0 +1,269 @@
+*{
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+.site-btn{
+    width: 217px;
+    height: 56px;
+    border-radius: 6px 6px 6px 6px;
+    background: #0E8784;
+    font-family: "Fraunces 9pt";
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;                        
+}
+.site-btn:active{
+    width: 217px;
+    height: 56px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+}
+.site-btn:hover{
+    width: 217px;
+    height: 56px;
+    top: 2534px;
+    left: 612px;
+    gap: 0px;
+    opacity: 0px;
+    background: #66D2CF;    
+}
+.site-btn:disabled{
+    width: 217px;
+    height: 56px;
+    gap: 0px;
+    border-radius: 6px 6px 6px 6px;
+    opacity: 0px;
+    background: #E2DEDB;   
+}
+.header{
+    margin: 44px 0 44px 0;
+}
+.header-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 283px; */
+    padding: 0px 1px 0px 0px;
+
+
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-item a{
+    font-family: "Barlow";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.9230769276618958px;
+    text-align: left;
+    color: #83888F;
+}
+.hero-container{
+    background-image: url(/create_plan/hero-bg.png);
+    background-repeat: no-repeat;
+    padding: 134px 0;
+}
+.hero-box{
+    margin-left: 85px;
+    text-align: left;
+    width: 486px;
+}
+.hero-title{
+    font-family: "Fraunces 9pt";
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: left;
+    color: #FEFCF7;
+   
+}
+.hero-text{
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #FEFCF7;
+    margin-top: 32px;
+    
+}
+.manual-container{
+    margin-bottom: 159px;
+}
+.manual-span{
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+    color: #83888F;
+       
+}
+.manual-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.manual-item-ttitle{
+    font-family: "Fraunces 9pt";
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: left;
+    color: #FDD6BA;    
+}
+.manual-item-title{
+    font-family: "Fraunces 9pt";
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+    color: #333D4B; 
+    margin-top: 38px;
+    margin-bottom: 42px;       
+}
+.manual-item-text{
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #333D4B;    
+}
+.question-container{
+    display: flex;
+    justify-content: space-between;
+}
+.question-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* max-height: 32px; */
+    max-width: 211px;
+    color: #83888F;
+}
+.question-link:hover{
+    color: #0E8784;
+}
+.question-link:active{
+    color: #333D4B;
+}
+.question-title{
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;
+}
+.question-text{
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: left;    
+}
+.answers-box-title{
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    text-align: left;
+    color: #83888F;
+    margin-bottom: 56px;
+}
+.answers-box{
+    margin-bottom: 88px;
+}
+.answers-box-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.answers-box-item{
+    width: 228px;
+    height: 250px;
+    border-radius: 8px 8px 8px 8px;
+    background: #F4F1EB;
+    margin-right: 23px;
+    color: #333D4B;
+}
+.answers-box-item:hover{
+    background: #FDD6BA;
+}
+.answers-box-item:active{
+    background-color: #0E8784;
+    color: #fff;
+}
+.ans-box-item-title{
+    font-family: "Fraunces 9pt";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    text-align: left;
+   
+}
+.ans-box-text{
+    font-family: "Barlow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+/* .ans-box-text:hover{
+    color: #FEFCF7;
+} */
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-bottom: 88px;
+    background: #2C343E;
+    padding:47px 85px;
+}
+.footer-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+
+}
+.footer-apps-list{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-apps-item{
+    padding: 0;
+}
+.footer-apps-item a{
+    padding: 0;
+}
